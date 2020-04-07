@@ -1,0 +1,49 @@
+{
+  "name": "mern-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/plexideas/mern-boilerplate.git",
+  "author": "8bitago <8bitago@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --config ./webpack/webpack.server.js --watch"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/bcrypt": "^3.0.0",
+    "@types/body-parser": "^1.19.0",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.4",
+    "@types/jsonwebtoken": "^8.3.8",
+    "@types/moment": "^2.13.0",
+    "@types/mongoose": "^5.7.8",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "nodemon-webpack-plugin": "^4.3.1",
+    "prettier": "^2.0.3",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
