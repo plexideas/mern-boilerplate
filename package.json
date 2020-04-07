@@ -6,7 +6,7 @@
   "author": "8bitago <8bitago@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --config ./webpack/webpack.server.js --watch"
+    "server": "webpack --watch"
   },
   "dependencies": {
     "bcrypt": "^4.0.1",
@@ -37,6 +37,8 @@
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
     "nodemon-webpack-plugin": "^4.3.1",
     "prettier": "^2.0.3",
     "ts-loader": "^6.2.2",

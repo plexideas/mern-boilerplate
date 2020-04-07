@@ -2,13 +2,13 @@ import express from 'express';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
-import config from './config';
+import settings from './settings';
 import userRouter from './routes/users';
 
 // Init variables
 const port: string | number = process.env.PORT || 5000;
 const app: express.Application = express();
-const mongoDbUrl: string = config.MONGODB.URL || '';
+const mongoDbUrl: string = settings.MONGODB.URL || '';
 
 // Mongoose initialization and connect to db;
 mongoose
@@ -26,7 +26,8 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use('/api/users', userRouter);
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
+  console.log('Hello');
   res.send('Hello, world!');
 });
 

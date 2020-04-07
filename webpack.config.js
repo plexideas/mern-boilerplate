@@ -6,7 +6,7 @@ module.exports = {
   entry: './server/index.ts',
   target: 'node',
   devtool: 'inline-source-map',
-  mode: 'development',
+  mode: 'none',
 
   module: {
     rules: [
@@ -33,7 +33,7 @@ module.exports = {
 
   output: {
     filename: 'server.js',
-    path: path.resolve(__dirname, '../build')
+    path: path.resolve(__dirname, 'build')
   },
 
   plugins: [

@@ -13,5 +13,8 @@
     "@typescript-eslint/no-explicit-any": 0
   },
   "settings": {
+  },
+  "env": {
+    "node": true
   }
 }
