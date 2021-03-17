@@ -1,6 +1,6 @@
-# MERN Boilerplate
+# (づ ◕‿◕ )づ Express server boilerplate
 
-My custome MERN boilerplate (TypeScript)
+My custome express server boilerplate (TypeScript)
 
 This boilerplate contains:
 - TypeScript
